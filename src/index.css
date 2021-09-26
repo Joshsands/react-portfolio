@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.project-box {
+  height: 20rem;
+  width: 30rem;
+  background-color: green;
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.project-box:hover {
+  opacity: 100%;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .project-box {
+      height: 40rem;
+}
+}
+
+@media screen and (max-width: 426px) {
+  .project-box {
+      height: 25rem;
+}
+}
+
+@media screen and (max-width: 321px) {
+  .project-box {
+      height: 20rem;
+}
+}
