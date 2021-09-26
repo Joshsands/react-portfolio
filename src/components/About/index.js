@@ -1,7 +1,6 @@
 function AboutMe() {
     return (
-
-      <div className="container">
+<article>
       <div className="row my-3">
         <div className="col-2 d-flex align-items-center">
           <p>About Me</p>
@@ -29,7 +28,7 @@ function AboutMe() {
           </p>
         </div>
       </div>
-      </div>
+      </article>
     )
     }
   export default AboutMe;
