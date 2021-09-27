@@ -1,6 +1,6 @@
 function AboutMe() {
     return (
-<article>
+<article className="container">
       <div className="row my-3">
         <div className="col-2 d-flex align-items-center">
           <p>About Me</p>
