@@ -18,8 +18,8 @@ a, a:hover {
 }
 
 .proj-img {
-  max-width: 95%;
-  max-height: 90%;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 code {
@@ -30,7 +30,7 @@ code {
 .project-box {
   height: 20rem;
   width: 30rem;
-  background-color: green;
+  background-color: darkslategray;
   cursor: pointer;
   opacity: 50%;
 }
