@@ -16,7 +16,7 @@
 
 ## Visual Demonstration
 
-![React Portfolio by Joshua Sands](public/icons/19-pwa-homework-demo-01.png)
+![React Portfolio by Joshua Sands](src/assets/images/snapshot.PNG)
 
 ## Visual Demonstration
 
