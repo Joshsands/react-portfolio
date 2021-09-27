@@ -2,14 +2,15 @@ function Footer() {
   return (
     <div class="container">
       <nav class="navbar navbar-dark bg-dark p-2 d-flex justify-content-around">
-        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3">Tel: 512-554-5803</div>
-        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3">
+        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3"><a href="">Tel: 512-554-5803</a></div>
+        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3"><a href="mailto:josh.sands@mail.com">
           E-mail: josh.sands@mail.com
+          </a>
         </div>
-        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3">LinkedIn</div>
-        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3">GitHub</div>
-        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3">YouTube</div>
-        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3">Twitter</div>
+        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3"><a href="https://www.linkedin.com/in/josh-sands/">LinkedIn</a></div>
+        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3"><a href="https://github.com/Joshsands">GitHub</a></div>
+        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3"><a href="https://www.youtube.com/channel/UCzZO2oEgKw879mnxuAuA2Iw">YouTube</a></div>
+        <div class="col-lg-3 btn btn-outline-secondary my-3 mx-3"><a href="https://twitter.com/joshsandsdev">Twitter</a></div>
       </nav>
     </div>
   );

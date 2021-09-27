@@ -12,6 +12,16 @@ a, a:hover {
   color: white;
 }
 
+.about-me img {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+.proj-img {
+  max-width: 95%;
+  max-height: 90%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

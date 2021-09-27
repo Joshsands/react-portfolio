@@ -14,6 +14,7 @@ const Portfolio = () => {
                       <div className="row">
                         <h4 className="col-12">project name</h4>
                         <h4 className="col-12">languages used</h4>
+                        <img className="proj-img" src={require("../../assets/images/lifeFinder.png").default} alt="Joshua Sands profile" /> 
                       </div>
                     </div>
                   </div>

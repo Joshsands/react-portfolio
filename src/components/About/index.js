@@ -1,9 +1,11 @@
 function AboutMe() {
     return (
-<article className="container">
+<article className="container about-me d-flex justify-content-center">
+
+<img className="" src={require("../../assets/images/PROFILE-PICTURE.png").default} alt="Joshua Sands profile" /> 
       <div className="row my-3">
         <div className="col-2 d-flex align-items-center">
-          <p>About Me</p>
+          <p className="mx-auto">About Me</p>
         </div>
         <div className="col-10">
           <p>
